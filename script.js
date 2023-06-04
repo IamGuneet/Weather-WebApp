@@ -1,5 +1,6 @@
 
 document.querySelector("button").addEventListener('click',checkCity)
+
 document.querySelector('body').addEventListener('keypress',function(event){
  if(event.key ==="Enter"){
     checkCity()
